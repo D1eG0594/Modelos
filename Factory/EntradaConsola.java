@@ -3,21 +3,17 @@ import java.util.Scanner;
 public class EntradaConsola implements Entrada {
 
     @Override
-    public int[] capturar() {
+    public float capturar() {
         Scanner scanner = new Scanner(System.in);
-        int[] numeros = new int[2];
+        float numero;
 
         try {
-            System.out.print("Ingresa el primer número: ");
-            numeros[0] = Integer.parseInt(scanner.nextLine());
-
-            System.out.print("Ingresa el segundo número: ");
-            numeros[1] = Integer.parseInt(scanner.nextLine());
+            numero = Float.parseFloat(scanner.nextLine());
         } catch (NumberFormatException e) {
             System.out.println("Error: Entrada no válida como número.");
-            return null;
+            return 0; // Devuelve 0 si hay un error
         }
 
-        return numeros;
+        return numero;
     }
 }

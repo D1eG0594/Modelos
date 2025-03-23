@@ -1,11 +1,10 @@
 public class Suma implements Operacion {
-
-    public int operar(int[] numeros) {
-
-        int resultado = numeros[0] + numeros[1];
-
+    @Override
+    public float operar(float[] numeros) {
+        float resultado = 0;
+        for (float num : numeros) {
+            resultado += num; // Suma normal
+        }
         return resultado;
-
     }
-    
 }

@@ -4,5 +4,4 @@ public class SalidaConsola implements Salida {
     public void enviar(String mensaje) {
         System.out.println("" + mensaje);
     }
-    
 }

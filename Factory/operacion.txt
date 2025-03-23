@@ -1,2 +1,16 @@
-3
-4
+Figura: Cuadrado
+Dimensiones: 3.0 
+Área: 9.0
+-----------------------------
+Figura: Rectángulo
+Dimensiones: 8.0 7.0 
+Área: 56.0
+-----------------------------
+Figura: Triángulo
+Dimensiones: 6.0 7.0 
+Área: 21.0
+-----------------------------
+Figura: Círculo
+Dimensiones: 1.0 
+Área: 3.1415927
+-----------------------------

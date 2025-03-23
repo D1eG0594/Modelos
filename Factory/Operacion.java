@@ -1,3 +1,3 @@
 public interface Operacion {
-    int operar(int[] numeros);
+    float operar(float[] numeros);
 }

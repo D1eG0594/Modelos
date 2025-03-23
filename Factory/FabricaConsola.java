@@ -9,5 +9,4 @@ public class FabricaConsola implements FabricaAbstracta {
     public Salida crearSalida() {
         return new SalidaConsola();
     }
-    
 }

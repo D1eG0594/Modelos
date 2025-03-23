@@ -1,5 +1,4 @@
-public interface FabricaOperaciones {
-    Suma crearSuma();
-    Resta crearResta();
-    Multiplicacion crearMultiplicacion();
+abstract class FabricaOperaciones {
+    
+    public abstract Operacion crearOperacion();
 }

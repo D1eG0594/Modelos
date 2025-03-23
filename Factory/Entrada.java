@@ -1,4 +1,4 @@
 public interface Entrada{
-    int[] capturar();
+    float capturar();  
 
 }
