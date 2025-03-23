@@ -9,6 +9,4 @@ public class FabricaArchivo implements FabricaAbstracta {
     public Salida crearSalida() {
         return new SalidaArchivo();
     }
-    
-    
 }

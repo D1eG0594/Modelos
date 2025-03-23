@@ -23,5 +23,4 @@ public class EntradaArchivo implements Entrada {
 
         return 0; // Devuelve 0 si no se encuentra ningún número válido
     }
-
 }

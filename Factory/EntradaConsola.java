@@ -11,8 +11,11 @@ public class EntradaConsola implements Entrada {
             numero = Float.parseFloat(scanner.nextLine());
         } catch (NumberFormatException e) {
             System.out.println("Error: Entrada no válida como número.");
+            scanner.close();
             return 0; // Devuelve 0 si hay un error
         }
+
+        scanner.close();
 
         return numero;
     }
